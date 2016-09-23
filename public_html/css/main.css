@@ -1,0 +1,371 @@
+
+
+/* ==========================================================================
+  Teste: Cristiano de Paula Soares
+   ========================================================================== */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Page Home*/
+.container img:hover {
+    opacity: 0.8;
+}
+/*header*/
+header {
+    height: 53px;
+    background: #137cc5;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}    
+.navbar-nav> li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav.navbar.navbar-default.ng-scope {
+    background: transparent;
+    border: 0px;
+}
+.navbar-nav li.logo {
+    padding: 0 50px;
+}
+.navbar-nav a.ng-binding {
+    color: #fff !important;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav a.ng-binding:hover {
+    background: transparent;
+    color: #fefb05 !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+/*Boxes Information*/
+.box-one.ng-scope {
+    text-align: center;
+    min-height: 468px;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    border: 1px solid #137cc5;
+    margin: 30px 0;
+    padding: 0 45px;
+    z-index: 1;
+}
+h1.title-box.ng-binding {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.box-info hr {
+    width: 10%;
+    border: 2px solid #137cc5;
+    margin-top: 15px;
+}
+h5.name-project.ng-binding {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p.description.ng-binding {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+p.more.ng-binding {
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+/*Footer*/
+footer {
+    background: #1a1c27;
+    min-height: 375px;
+    padding: 40px 0;
+}
+
+/*Col One Footer*/
+.text-info-footer img {
+    margin-bottom: 15px;
+}
+.text-info-footer p {
+    color: #758590;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-info-footer a.link-more {
+    color: #0086c6;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    font-size: 13px;
+}
+.text-info-footer a.link-more .ico-more-link {
+    background: url(../img/set-link-read-more.png);
+    height: 10px;
+    width: 10px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.text-info-footer.ng-scope {
+    border-bottom: 1px solid #1f2834;
+    padding-bottom: 15px;
+}
+
+ul.list-midias {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0px;
+}
+.list-midias li {
+    font-size: 10px;
+    color: #a1b1bc;
+    margin-bottom: 15px;
+    float: left;
+}
+i.ico-subscribe {
+    background: url(../img/ico-subscribe.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.ico-twitter {
+    background: url(../img/ico-twitter.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.ico-facebook {
+    background: url(../img/ico-facebook.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.ico-google {
+    background: url(../img/ico-google.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.ico-pinteret {
+    background: url(../img/ico-pinterest.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.ico-dribbble {
+    background: url(../img/ico-dribbble.png);
+    height: 17px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/*Col Two Footer*/
+
+.list-latest-posts .list-midias li {
+    font-size: 10px;
+    color: #a1b1bc;
+    margin-bottom: 15px;
+    float: left;
+    border-bottom: 1px solid #1f2834;
+    padding-bottom: 24px;
+}
+.list-latest-posts .list-midias li:last-child {
+    border-bottom: none;
+}
+.list-latest-posts h3.title-blog, .lineone-col3 h3.title-widget, .linetwo-col3 h3.title-widget, .widget-flickr h3.title-widget, .newsletter h3.title-newsletter {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.info-post {
+    float: right;
+    width: 85%;
+}
+.info-post h5.title-post {
+    margin-top: 5px;
+}
+.info-post p.ng-binding {
+    font-size: 12px;
+}
+i.img-postone {
+    background: url(../img/post01.png);
+    height: 27px;
+    width: 27px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.img-posttwo {
+    background: url(../img/post02.png);
+    height: 27px;
+    width: 27px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+i.img-postthree {
+    background: url(../img/post03.png);
+    height: 27px;
+    width: 27px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/*Col Three Footer*/
+ul.list-tags {
+    padding: 0px;
+}
+ul.list-tags li {
+    list-style: none;
+    width: auto;
+    border: 1px solid #a1b1bc;
+    color: #a1b1bc;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+ul.list-tags li:hover {
+    background: #0086c6;
+    color: #fff;
+    border: 1px solid #0086c6;
+}
+.lineone-col3 {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+ul.list-links {
+    padding-left: 15px;
+}
+.list-links li {
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #1f2834;
+    color: #a1b1bc;
+    list-style-type: square;
+}
+
+/*Col Four Footer*/
+.widget-flickr img {
+    float: left;
+    padding: 0 6px 6px 0px;
+}
+.widget-flickr {
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.newsletter input.input-group {
+    background: #222533;
+    border: 1px solid #243240;
+    padding: 5px;
+    outline: none;
+    float: left;
+}
+form.ng-pristine {
+    margin-top: 25px;
+}
+button.enviar {
+    background: #0086c6;
+    height: 33px;
+    width: 36px;
+    border: 1px solid #243240;
+}
+button.enviar:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+object {
+    display: none;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1080px;
+    }
+    
+    /*Box Grid Portfolio*/
+    .grid-list > div {
+        padding: 0px;
+    }
+}
+@media (max-width: 640px){
+    .navbar-nav> li {
+        float:initial;
+        display: inline-block;  
+        width: 100%;
+        z-index: 9999;
+    }
+    .grid-list img.img-responsive {
+        display: initial;
+    }
+    .grid-list div {
+        text-align: center;
+        padding: 20px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav {
+        background: #137cc5;
+        z-index: 9999;
+        width: 100%;
+        margin: 0px;
+    }
+    .navbar-nav li.logo {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
